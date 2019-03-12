@@ -20,7 +20,8 @@ setup(
         "pandas>=0.19",
         "matplotlib>=1.4",
         "jinja2>=2.8",
-        "six>=1.9"
+        "six>=1.9",
+        "billiard>=3.5.0.5"
     ],
     include_package_data = True,
     classifiers=[

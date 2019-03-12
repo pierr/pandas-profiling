@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Compute statistical description of datasets"""
-import multiprocessing
+import billiard as multiprocessing
 import itertools
 from functools import partial
 import numpy as np
